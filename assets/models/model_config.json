@@ -1,0 +1,16 @@
+{
+  "name": "ssd_mobilenet_v1_coco_quant_2018",
+  "inputWidth": 300,
+  "inputHeight": 300,
+  "scoreThreshold": 0.5,
+  "iouThreshold": 0.45,
+  "letterbox": true,
+  "applyNms": true,
+  "floatMean": 0.0,
+  "floatStd": 255.0,
+  "classIndexBase": 0,
+  "normalizedBoxes": true,
+  "boxOrder": "yxyx",
+  "labelsAsset": "assets/models/labelmap_ssd_mobilenet_v1.txt",
+  "outputOrder": ["boxes", "classes", "scores", "count"]
+}
